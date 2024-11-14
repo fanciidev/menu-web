@@ -1,6 +1,6 @@
-import Card from './card/Card';
-import Filter from './filter/Filter';
+import ProductList from './productList/ProductList';
+import FilterList from './filterList/FilterList';
 export {
-	Card,
-	Filter
+	ProductList,
+	FilterList
 };

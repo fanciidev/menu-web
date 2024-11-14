@@ -6,12 +6,11 @@
             "title": "Yello Kush",
             "price": "19,99",
             "quantity": 5,
-            "currency": "USD",
+            "currency": "$",
             "tags": [
                 "kush",
                 "sativa",
-                "thc",
-                "yellow-kush"
+                "thc"
             ]
         },
         {
@@ -20,11 +19,10 @@
             "title": "Rer Grass",
             "price": "15,99",
             "quantity": 5,
-            "currency": "EUR",
+            "currency": "€",
             "tags": [
                 "cbd",
-                "indica",
-                "rer-grass"
+                "indica"
             ]
         },
         {
@@ -33,9 +31,8 @@
             "title": "Heizi Heiz",
             "price": "10",
             "quantity": 3,
-            "currency": "EUR",
+            "currency": "€",
             "tags": [
-                "heizi-heiz",
                 "thc",
                 "indica"
             ]
@@ -46,10 +43,10 @@
             "title": "Fancy kush",
             "price": "7",
             "quantity": 3,
-            "currency": "EUR",
+            "currency": "€",
             "tags": [
-                "fancy-kush",
                 "cbd",
+                "kush",
                 "sativa"
             ]
         }

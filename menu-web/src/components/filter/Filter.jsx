@@ -1,12 +1,12 @@
 import "./filter.scss";
-
-const Filter = () => {
+const Filter = ({onClick, label, active}) => {
 	return (
-		<div className="filter">
-			<div className="container">
-				<h1>Filter</h1> 
-			</div>
-		</div>
+		<button
+			className={`filter ${active ? "active" : ""}` }
+			onClick={onClick}
+		>
+			{label}
+		</button>
 	);
 };
 

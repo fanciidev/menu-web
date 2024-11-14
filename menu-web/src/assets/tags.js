@@ -1,0 +1,1 @@
+export default ["cbd", "indica", "kush", "sativa", "thc"];

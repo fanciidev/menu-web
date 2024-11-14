@@ -12,5 +12,6 @@ const Card = ({imgPath, title, currency, price}) => {
 		</div>
 	);
 };
+
     
 export default Card;

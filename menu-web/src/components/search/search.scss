@@ -1,0 +1,23 @@
+svg {
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:active {
+        cursor: pointer;
+        transform: scale(0.9);
+    }
+}
+
+.search-icon {
+    width: 26px;
+    height: 26px;
+}
+
+.search-input-inactive {
+    display: none;
+}
+
+.search-input-active {
+    display: flex;
+}

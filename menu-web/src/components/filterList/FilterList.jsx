@@ -1,4 +1,4 @@
-
+import  './FilterList.scss';
 import Filter from '../filter/Filter';
 import tags from 'assets/tags.js';
 const FilterList = ({filters, onFiltersChange}) => {

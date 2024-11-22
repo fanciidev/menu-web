@@ -1,0 +1,28 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "title": "Bocatas"
+        },
+        {
+            "id": 2,
+            "title": "Bebidas sin alcohol"
+        },
+        {
+            "id": 3,
+            "title": "Hamburguesas"
+        },
+        {
+            "id": 4,
+            "title": "Bebidas con alcohol"
+        },
+        {
+            "id": 5,
+            "title": "Desayuno"
+        },
+        {
+            "id": 6,
+            "title": "Postres"
+        }
+    ]
+}

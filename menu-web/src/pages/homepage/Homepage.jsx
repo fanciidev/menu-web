@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ProductList, FilterList, Nav, Footer } from 'components';
+import { ProductList, FilterList, Search, Nav, Footer } from 'components';
 const Homepage = () => {
 	const [filters, setFilters] = useState([]);
 	return (
@@ -12,6 +12,12 @@ const Homepage = () => {
 				<FilterList 
 					filters={filters} 
 					onFiltersChange={setFilters} />
+				<div>
+					<FilterList 
+						filters={filters} 
+						onFiltersChange={setFilters} />
+					<Search />
+				</div>
 			</div>
 			<div>
 				<ProductList 

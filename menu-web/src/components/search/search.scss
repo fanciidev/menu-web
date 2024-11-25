@@ -9,6 +9,12 @@ svg {
     }
 }
 
+.search{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
 .search-icon {
     width: 26px;
     height: 26px;
@@ -20,4 +26,22 @@ svg {
 
 .search-input-active {
     display: flex;
+}
+
+.form-input {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #333333;
+    width: 200px;
+    height: 30px;
+    border-bottom: 1px solid #333333;
+
+    &::placeholder {
+        color: #333333;
+    }
 }

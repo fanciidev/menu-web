@@ -1,5 +1,5 @@
 import "./footer.scss";
-import logo from "../../assets/img/logo.jpg";
+import logo from "../../assets/img/logo.png";
 import gmail from "../../assets/img/gmail.png";
 import linkedin from "../../assets/img/linkedin.png";
 import ig from "../../assets/img/instagram.png";

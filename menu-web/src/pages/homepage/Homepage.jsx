@@ -14,7 +14,10 @@ const Homepage = () => {
 					<FilterList 
 						filters={filters} 
 						onFiltersChange={setFilters} />
-					<Search />
+					<Search 
+						filters={filters}
+						onFiltersChange={setFilters}
+					/>
 				</div>
 			</div>
 			<div>

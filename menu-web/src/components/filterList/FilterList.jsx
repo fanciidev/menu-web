@@ -11,7 +11,7 @@ const FilterList = ({filters, onFiltersChange}) => {
 	};  
 	return (
 		<div className="filter-list">
-			{tags.map((item) => 
+			{tags.concat(filters).map((item) => 
 				<Filter 
 					key={item} 
 					label={item}

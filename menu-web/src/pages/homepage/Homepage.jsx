@@ -1,3 +1,4 @@
+import './homepage.scss';
 import { useState } from 'react';
 import { ProductList, FilterList, Search, Nav, Footer } from 'components';
 const Homepage = () => {
@@ -9,10 +10,7 @@ const Homepage = () => {
 				/>
 			</div>
 			<div>
-				<FilterList 
-					filters={filters} 
-					onFiltersChange={setFilters} />
-				<div>
+				<div className='filters'>
 					<FilterList 
 						filters={filters} 
 						onFiltersChange={setFilters} />

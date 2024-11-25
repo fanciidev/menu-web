@@ -9,9 +9,10 @@ const FilterList = ({filters, onFiltersChange}) => {
 			onFiltersChange([...filters, filter]);
 		}
 	};  
+	const fullFilterList = [...new Set([...tags, ...filters])];
 	return (
 		<div className="filter-list">
-			{tags.concat(filters).map((item) => 
+			{fullFilterList.map((item) => 
 				<Filter 
 					key={item} 
 					label={item}

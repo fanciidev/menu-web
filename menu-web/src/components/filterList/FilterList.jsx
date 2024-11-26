@@ -1,6 +1,8 @@
 import  './FilterList.scss';
 import Filter from '../filter/Filter';
 import tags from 'assets/tags.js';
+import menu from 'assets/menu.json';
+const menuCategories = menu.menu.map((item) => item.category.toLowerCase());
 const FilterList = ({filters, onFiltersChange}) => {
 	const handleFilterChange = (filter) => {
 		if (filters.includes(filter)) {
@@ -9,7 +11,7 @@ const FilterList = ({filters, onFiltersChange}) => {
 			onFiltersChange([...filters, filter]);
 		}
 	};  
-	const fullFilterList = [...new Set([...tags, ...filters])];
+	const fullFilterList = [...new Set([...tags, ...filters, ...menuCategories])];
 	return (
 		<div className="filter-list">
 			{fullFilterList.map((item) => 

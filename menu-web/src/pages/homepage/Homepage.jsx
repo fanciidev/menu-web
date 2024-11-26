@@ -21,10 +21,14 @@ const Homepage = () => {
 				</div>
 			</div>
 			<div>
-				<ProductList 
-					filters={filters}
-				/>
+		
+				<div>
+					<ProductList 
+						filters={filters}
+					/>
+				</div>
 			</div>
+
 			<div>
 				<Footer
 				/>

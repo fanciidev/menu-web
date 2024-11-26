@@ -1,104 +1,174 @@
 {
     "menu": [
         {
-            "id": 1,
-            "img": "https://f.fcdn.app/imgs/63fc6b/www.indajaus.com.uy/indauy/2e54/webp/catalogo/RK-A-KL-_6113_1/2000-2000/auto-klementine-x1-unidad.jpg",
-            "title": "Yello Kush",
-            "price": "19,99",
-            "quantity": 5,
-            "currency": "$",
+            "id": 11,
+            "img": "https://example.com/images/product11.jpg",
+            "title": "AK-47 - Pack 5",
+            "price": "1,150",
+            "currency": "UYU",
             "tags": [
-                "kush",
+                "semillas",
+                "híbrido",
+                "versátil"
+            ],
+            "description": "AK-47 es una variedad versátil, con un balance perfecto entre relajación y energía.",
+            "stock": true,
+            "url": "https://example.com/products/ak-47-pack5",
+            "brand": "Genetics Pro",
+            "category": "Semillas"
+        },
+        {
+            "id": 12,
+            "img": "https://example.com/images/product12.jpg",
+            "title": "Sour Diesel - Pack 3",
+            "price": "980",
+            "currency": "UYU",
+            "tags": [
+                "semillas",
                 "sativa",
-                "thc"
-            ]
+                "diesel"
+            ],
+            "description": "Sour Diesel destaca por su aroma a combustible y su efecto estimulante.",
+            "stock": false,
+            "url": "https://example.com/products/sour-diesel-pack3",
+            "brand": "Diesel Co.",
+            "category": "Semillas"
         },
         {
-            "id": 2,
-            "img": "https://f.fcdn.app/imgs/5302d0/www.indajaus.com.uy/indauy/178e/webp/catalogo/RK-A-SB-_6109_1/480x480/auto-sublimator-x1-unidad.jpg",
-            "title": "Rer Grass",
-            "price": "15,99",
-            "quantity": 5,
-            "currency": "€",
+            "id": 13,
+            "img": "https://example.com/images/product13.jpg",
+            "title": "Gorilla Glue - Pack 1",
+            "price": "600",
+            "currency": "UYU",
             "tags": [
-                "cbd",
-                "indica"
-            ]
+                "semillas",
+                "híbrido",
+                "resinosa"
+            ],
+            "description": "Gorilla Glue es conocida por su alto contenido de resina y su efecto potente.",
+            "stock": true,
+            "url": "https://example.com/products/gorilla-glue-pack1",
+            "brand": "Sticky Genetics",
+            "category": "Semillas"
         },
         {
-            "id": 3,
-            "img": "https://f.fcdn.app/imgs/873265/www.indajaus.com.uy/indauy/f163/webp/catalogo/RK-F-XN-_3164_1/2000-2000/fem-el-xupet-negre-x1-unidad.jpg",
-            "title": "Heizi Heiz",
-            "price": "10",
-            "quantity": 3,
-            "currency": "€",
+            "id": 14,
+            "img": "https://example.com/images/product14.jpg",
+            "title": "Cheese - Pack 10",
+            "price": "1,900",
+            "currency": "UYU",
             "tags": [
-                "thc",
-                "indica"
-            ]
+                "semillas",
+                "indica",
+                "aroma fuerte"
+            ],
+            "description": "Cheese ofrece un perfil aromático único, ideal para quienes buscan algo distinto.",
+            "stock": false,
+            "url": "https://example.com/products/cheese-pack10",
+            "brand": "Unique Strains",
+            "category": "Semillas"
         },
         {
-            "id": 4,
-            "img": "https://f.fcdn.app/imgs/194562/www.indajaus.com.uy/indauy/ec97/webp/catalogo/RK-F-FD-_6104_1/2000-2000/fem-fancy-donrouch-x1-unidad.jpg",
-            "title": "Fancy kush",
-            "price": "7",
-            "quantity": 3,
-            "currency": "€",
+            "id": 15,
+            "img": "https://example.com/images/product15.jpg",
+            "title": "Bubble Gum - Pack 3",
+            "price": "970",
+            "currency": "UYU",
             "tags": [
-                "cbd",
-                "kush",
-                "sativa"
-            ]
+                "semillas",
+                "híbrido",
+                "dulce"
+            ],
+            "description": "Bubble Gum ofrece un sabor dulce y un efecto relajante, ideal para disfrutar.",
+            "stock": true,
+            "url": "https://example.com/products/bubble-gum-pack3",
+            "brand": "Candy Genetics",
+            "category": "Semillas"
         },
         {
-            "id": 5,
-            "img": "https://f.fcdn.app/imgs/63fc6b/www.indajaus.com.uy/indauy/2e54/webp/catalogo/RK-A-KL-_6113_1/2000-2000/auto-klementine-x1-unidad.jpg",
-            "title": "Mari huano",
-            "price": "19,99",
-            "quantity": 5,
-            "currency": "$",
+            "id": 16,
+            "img": "https://example.com/images/product16.jpg",
+            "title": "Chronic - Pack 1",
+            "price": "520",
+            "currency": "UYU",
             "tags": [
-                "kush",
+                "semillas",
+                "híbrido",
+                "productiva"
+            ],
+            "description": "Chronic es conocida por sus rendimientos altos y su aroma dulce.",
+            "stock": true,
+            "url": "https://example.com/products/chronic-pack1",
+            "brand": "High Yield",
+            "category": "Semillas"
+        },
+        {
+            "id": 17,
+            "img": "https://example.com/images/product17.jpg",
+            "title": "Trainwreck - Pack 5",
+            "price": "1,400",
+            "currency": "UYU",
+            "tags": [
+                "semillas",
+                "híbrido",
+                "potente"
+            ],
+            "description": "Trainwreck es una variedad potente con efectos cerebrales y relajantes.",
+            "stock": true,
+            "url": "https://example.com/products/trainwreck-pack5",
+            "brand": "Power Genetics",
+            "category": "Semillas"
+        },
+        {
+            "id": 18,
+            "img": "https://example.com/images/product18.jpg",
+            "title": "Jack Herer - Pack 3",
+            "price": "1,050",
+            "currency": "UYU",
+            "tags": [
+                "semillas",
                 "sativa",
-                "thc"
-            ]
+                "clásico"
+            ],
+            "description": "Jack Herer, un homenaje a un ícono del cannabis, ofrece un efecto estimulante y creativo.",
+            "stock": true,
+            "url": "https://example.com/products/jack-herer-pack3",
+            "brand": "Heritage Seeds",
+            "category": "Semillas"
         },
         {
-            "id": 6,
-            "img": "https://f.fcdn.app/imgs/5302d0/www.indajaus.com.uy/indauy/178e/webp/catalogo/RK-A-SB-_6109_1/480x480/auto-sublimator-x1-unidad.jpg",
-            "title": "Delo rto",
-            "price": "15,99",
-            "quantity": 5,
-            "currency": "€",
+            "id": 19,
+            "img": "https://example.com/images/product19.jpg",
+            "title": "Pineapple Express - Pack 1",
+            "price": "580",
+            "currency": "UYU",
             "tags": [
-                "cbd",
-                "indica"
-            ]
+                "semillas",
+                "híbrido",
+                "afrutada"
+            ],
+            "description": "Pineapple Express combina notas tropicales con un efecto equilibrado.",
+            "stock": false,
+            "url": "https://example.com/products/pineapple-express-pack1",
+            "brand": "Tropical Genetics",
+            "category": "Semillas"
         },
         {
-            "id": 7,
-            "img": "https://f.fcdn.app/imgs/873265/www.indajaus.com.uy/indauy/f163/webp/catalogo/RK-F-XN-_3164_1/2000-2000/fem-el-xupet-negre-x1-unidad.jpg",
-            "title": "Seco seco",
-            "price": "10",
-            "quantity": 3,
-            "currency": "€",
+            "id": 20,
+            "img": "https://example.com/images/product20.jpg",
+            "title": "Blue Dream - Pack 5",
+            "price": "1,320",
+            "currency": "UYU",
             "tags": [
-                "thc",
-                "indica"
-            ]
-        },
-        {
-            "id": 8,
-            "img": "https://f.fcdn.app/imgs/194562/www.indajaus.com.uy/indauy/ec97/webp/catalogo/RK-F-FD-_6104_1/2000-2000/fem-fancy-donrouch-x1-unidad.jpg",
-            "title": "Disco Stu (Sexo)",
-            "price": "2",
-            "quantity": 3,
-            "currency": "€",
-            "tags": [
-                "cbd",
-                "kush",
-                "sativa"
-            ]
+                "semillas",
+                "híbrido",
+                "popular"
+            ],
+            "description": "Blue Dream, una de las variedades más populares, ofrece un equilibrio perfecto entre cuerpo y mente.",
+            "stock": true,
+            "url": "https://example.com/products/blue-dream-pack5",
+            "brand": "Dream Co.",
+            "category": "Semillas"
         }
     ]
 }

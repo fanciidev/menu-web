@@ -1,8 +1,7 @@
 import  './FilterList.scss';
 import Filter from '../filter/Filter';
-import tags from 'assets/tags.js';
-import menu from 'assets/menu.json';
-const FilterList = ({filters, onFiltersChange}) => {
+// import tags from 'assets/tags.js';
+const FilterList = ({filters, onFiltersChange, tags}) => {
 	const handleFilterChange = (filter) => {
 		if (filters.includes(filter)) {
 			onFiltersChange(filters.filter(f => f !== filter));

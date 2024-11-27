@@ -1,4 +1,3 @@
-import { menu } from 'assets/menu.json';
 import { Header, ProductList } from 'components';
 import "./category.scss";
 const Category = ({name, filters, menu}) => {

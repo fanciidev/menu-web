@@ -1,8 +1,9 @@
 import './homepage.scss';
 import { useState } from 'react';
-import { ProductList, FilterList, Search, Nav, Footer } from 'components';
+import { ProductList, FilterList, Search, Nav, Footer, PopUpCard } from 'components';
 const Homepage = () => {
 	const [filters, setFilters] = useState([]);
+	const [popUp, setPopUp] = useState(null);
 	return (
 		<div>
 			<div>
@@ -18,8 +19,17 @@ const Homepage = () => {
 				</div>
 			</div>
 			<div>
+				{popUp && (
+					<PopUpCard
+						imgPath={popUp.imgPath}
+						title={popUp.title}
+						currency={popUp.currency}
+						price={popUp.price}
+					/>
+				)}
 				<ProductList 
 					filters={filters}
+					onPopUp={setPopUp}
 				/>
 			</div>
 			<div>

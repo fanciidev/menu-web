@@ -1,6 +1,6 @@
 import { menu } from '../../assets/menu.json';
 import Card from '../card/Card';
-const ProductList = ({filters}) => {
+const ProductList = ({filters, onPopUp}) => {
 	const filterProducts = () => {
 		if (filters.length === 0) {
 			return menu;
@@ -17,7 +17,8 @@ const ProductList = ({filters}) => {
 				imgPath={item.img} 
 				title={item.title.toUpperCase()} 
 				currency={item.currency}
-				price={!item.price.includes(',') ? item.price + ",00" : item.price} 
+				price={!item.price.includes(',') ? item.price + ",00" : item.price}
+				onPopUp={onPopUp}
 			/>)}
 	</div>);
 };

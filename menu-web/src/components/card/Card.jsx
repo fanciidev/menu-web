@@ -1,4 +1,5 @@
 import "./card.scss";
+import { PopUpCard } from "components";
 const Card = ({imgPath, title, currency, price}) => {
 	return (
 		<div className="card">
@@ -7,6 +8,7 @@ const Card = ({imgPath, title, currency, price}) => {
 				<div className="card-body">
 					<h3 className="card-title">{title}</h3>
 					<p className="card-price">{currency + price}</p>
+					<button onClick={() => PopUpCard(imgPath, title, currency, price)}>Ver mas</button>
 				</div>
 			</div>
 		</div>

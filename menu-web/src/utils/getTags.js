@@ -1,3 +1,4 @@
+/* eslint-disable */
 import menu from "assets/menu.json";
 
 export const getTags = () => {

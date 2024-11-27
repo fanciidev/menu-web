@@ -1,6 +1,5 @@
-import { menu } from '../../assets/menu.json';
 import Card from '../card/Card';
-const ProductList = ({filters}) => {
+const ProductList = ({filters, menu}) => {
 	const filterProducts = () => {
 		if (filters.length === 0) {
 			return menu;

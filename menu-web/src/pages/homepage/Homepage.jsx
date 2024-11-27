@@ -1,6 +1,6 @@
 import './homepage.scss';
 import { useState } from 'react';
-import { ProductList, FilterList, Search, Nav, Footer } from 'components';
+import { CategoryList, FilterList, Search, Nav, Footer } from 'components';
 const Homepage = () => {
 	const [filters, setFilters] = useState([]);
 	return (
@@ -21,9 +21,9 @@ const Homepage = () => {
 				</div>
 			</div>
 			<div>
-		
+
 				<div>
-					<ProductList 
+					<CategoryList
 						filters={filters}
 					/>
 				</div>

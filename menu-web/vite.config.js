@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { defineConfig } from 'vite';
 import jsconfigPaths from 'vite-jsconfig-paths';
 import react from '@vitejs/plugin-react';
@@ -11,5 +12,4 @@ const defaultConfig = {
     }
   }
 };
-
 export default defineConfig(defaultConfig);

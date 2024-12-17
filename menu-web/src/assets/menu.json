@@ -1,103 +1,528 @@
 {
-    "menu": [
+    "categories": [
         {
-            "id": 1,
-            "img": "https://f.fcdn.app/imgs/63fc6b/www.indajaus.com.uy/indauy/2e54/webp/catalogo/RK-A-KL-_6113_1/2000-2000/auto-klementine-x1-unidad.jpg",
-            "title": "Yello Kush",
-            "price": "19,99",
-            "quantity": 5,
-            "currency": "$",
-            "tags": [
-                "kush",
-                "sativa",
-                "thc"
+            "category": "FEM",
+            "menu": [
+                {
+                    "id": 1,
+                    "img": "https://f.fcdn.app/imgs/2286bc/www.indajaus.com.uy/indauy/ec97/webp/catalogo/RK-F-FD-_6104_1/480x480/fem-fancy-donrouch-x1-unidad.jpg",
+                    "title": "FANCY DONROUCH",
+                    "price": "590",
+                    "currency": "$",
+                    "tags": [
+                        "FEM",
+                        "THC"
+                    ],
+                    "description": "Si eres amante de las genéticas de marihuana con aromas marcados y te gusta la exclusividad, no debes dejar pasar la oportunidad de probar Fancy Donrouch, una variedad de cannabis sorprendente.",
+                    "stock": true
+                },
+                {
+                    "id": 4,
+                    "img": "https://f.fcdn.app/imgs/1b0623/www.indajaus.com.uy/indauy/c527/webp/catalogo/6148_6148_1/480x480/fem-the-ultimate-x3-unidades-fem-the-ultimate-x3-unidades.jpg",
+                    "title": "THE ULTIMATE",
+                    "price": "1.250",
+                    "currency": "$",
+                    "tags": [
+                        "FEM",
+                        "THC"
+                    ],
+                    "description": "The Ultimate es una híbrida equilibrada con un rendimiento enorme.",
+                    "stock": true
+                },
+                {
+                    "id": 5,
+                    "img": "https://f.fcdn.app/imgs/a1bebb/www.indajaus.com.uy/indauy/5707/webp/catalogo/6145_6145_1/480x480/fem-snow-bud-x3-unidades-fem-snow-bud-x3-unidades.jpg",
+                    "title": "SNOW BUD",
+                    "price": "1.040",
+                    "currency": "$",
+                    "tags": [
+                        "FEM",
+                        "THC"
+                    ],
+                    "description": "Snow Bud es una variedad de exterior muy robusta y resistente, ideal para cultivar en zonas montañosas.",
+                    "stock": true
+                },
+                {
+                    "id": 9,
+                    "img": "https://f.fcdn.app/imgs/f4d24f/www.indajaus.com.uy/indauy/f163/webp/catalogo/RK-F-XN-_3164_1/480x480/fem-el-xupet-negre-x1-unidad.jpg",
+                    "title": "EL XUPET NEGRE",
+                    "price": "790",
+                    "currency": "$",
+                    "tags": [
+                        "FEM",
+                        "THC"
+                    ],
+                    "description": "Esta variedad ofrece un perfil equilibrado y único para los amantes del cannabis.",
+                    "stock": true
+                },
+                {
+                    "id": 10,
+                    "img": "https://f.fcdn.app/imgs/d9e939/www.indajaus.com.uy/indauy/53ec/webp/catalogo/BSFFCC_6252_1/480x480/fem-choco-cream-x2-unidades.jpg",
+                    "title": "CHOCO CREAM",
+                    "price": "1.000",
+                    "currency": "$",
+                    "tags": [
+                        "FEM",
+                        "THC"
+                    ],
+                    "description": "Una variedad con sabores dulces y cremosos que no decepcionará a los paladares más exigentes.",
+                    "stock": true
+                },
+                {
+                    "id": 11,
+                    "img": "https://f.fcdn.app/imgs/b78822/www.indajaus.com.uy/indauy/870b/webp/catalogo/BSFN_6256_1/480x480/fem-nerdz-x2-unidades.jpg",
+                    "title": "NERDZ",
+                    "price": "1.000",
+                    "currency": "$",
+                    "tags": [
+                        "FEM",
+                        "THC"
+                    ],
+                    "description": "Variedad con un perfil de sabor afrutado y alta potencia.",
+                    "stock": true
+                },
+                {
+                    "id": 12,
+                    "img": "https://f.fcdn.app/imgs/89d36e/www.indajaus.com.uy/indauy/2618/webp/catalogo/BSFGTA_6260_1/480x480/fem-gta-x2-unidades.jpg",
+                    "title": "GTA",
+                    "price": "1.000",
+                    "currency": "$",
+                    "tags": [
+                        "FEM",
+                        "THC"
+                    ],
+                    "description": "Perfecta para quienes buscan una genética equilibrada y resistente.",
+                    "stock": true
+                },
+                {
+                    "id": 13,
+                    "img": "https://f.fcdn.app/imgs/982479/www.indajaus.com.uy/indauy/8811/webp/catalogo/BSFGM_6264_1/480x480/fem-gmint-x2-unidades.jpg",
+                    "title": "GMINT",
+                    "price": "1.000",
+                    "currency": "$",
+                    "tags": [
+                        "FEM",
+                        "THC"
+                    ],
+                    "description": "Con toques mentolados, esta variedad es ideal para los que buscan frescura.",
+                    "stock": true
+                },
+                {
+                    "id": 14,
+                    "img": "https://f.fcdn.app/imgs/99bfa4/www.indajaus.com.uy/indauy/a96f/webp/catalogo/FEMNP_6272_1/480x480/fem-nicole-punch-x2-unidades.jpg",
+                    "title": "NICOLE PUNCH",
+                    "price": "1.000",
+                    "currency": "$",
+                    "tags": [
+                        "FEM",
+                        "THC"
+                    ],
+                    "description": "Una genética con sabores intensos y un rendimiento notable.",
+                    "stock": true
+                },
+                {
+                    "id": 15,
+                    "img": "https://f.fcdn.app/imgs/f5daa5/www.indajaus.com.uy/indauy/cee2/webp/catalogo/BSFTC_6268_1/480x480/fem-tropicherry-x2-unidades.jpg",
+                    "title": "TROPICHERRY",
+                    "price": "1.000",
+                    "currency": "$",
+                    "tags": [
+                        "FEM",
+                        "THC"
+                    ],
+                    "description": "Un cruce tropical con sabores exóticos y una gran producción.",
+                    "stock": true
+                },
+                {
+                    "id": 17,
+                    "img": "https://f.fcdn.app/imgs/96f64a/www.indajaus.com.uy/indauy/da5f/webp/catalogo/6208_6208_1/480x480/fem-bubba-island-kush-x3-unidades-fem-bubba-island-kush-x3-unidades.jpg",
+                    "title": "BUBBA ISLAND KUSH X3 UNIDADES",
+                    "price": "1.920",
+                    "currency": "$",
+                    "tags": [
+                        "FEM",
+                        "BUBBA ISLAND KUSH X3 UNIDADES"
+                    ],
+                    "description": "",
+                    "stock": true
+                },
+                {
+                    "id": 21,
+                    "img": "https://f.fcdn.app/imgs/e33c3e/www.indajaus.com.uy/indauy/ef5c/webp/catalogo/6209_6209_1/480x480/fem-c-vibez-x3-unidades-fem-c-vibez-x3-unidades.jpg",
+                    "title": "C VIBEZ X3 UNIDADES",
+                    "price": "2.120",
+                    "currency": "$",
+                    "tags": [
+                        "FEM",
+                        "C VIBEZ X3 UNIDADES"
+                    ],
+                    "description": "",
+                    "stock": true
+                },
+                {
+                    "id": 22,
+                    "img": "https://f.fcdn.app/imgs/351d47/www.indajaus.com.uy/indauy/0d5a/webp/catalogo/6211_6211_1/480x480/fem-pamir-gold-x3-unidades-fem-pamir-gold-x3-unidades.jpg",
+                    "title": "PAMIR GOLD X3 UNIDADES",
+                    "price": "960",
+                    "currency": "$",
+                    "tags": [
+                        "FEM",
+                        "PAMIR GOLD X3 UNIDADES"
+                    ],
+                    "description": "",
+                    "stock": true
+                },
+                {
+                    "id": 23,
+                    "img": "https://f.fcdn.app/imgs/3fe33e/www.indajaus.com.uy/indauy/442c/webp/catalogo/6212_6212_1/480x480/fem-thc-victory-x3-unidades-fem-thc-victory-x3-unidades.jpg",
+                    "title": "THC VICTORY X3 UNIDADES",
+                    "price": "3.440",
+                    "currency": "$",
+                    "tags": [
+                        "FEM",
+                        "THC VICTORY X3 UNIDADES"
+                    ],
+                    "description": "",
+                    "stock": true
+                },
+                {
+                    "id": 28,
+                    "img": "https://f.fcdn.app/imgs/d48142/www.indajaus.com.uy/indauy/153e/webp/catalogo/6243_6243_1/480x480/fem-cbg-force-x3-unidades-fem-cbg-force-x3-unidades.jpg",
+                    "title": "CBG FORCE X3 UNIDADES",
+                    "price": "1.890",
+                    "currency": "$",
+                    "tags": [
+                        "FEM",
+                        "CBG FORCE X3 UNIDADES"
+                    ],
+                    "description": "",
+                    "stock": true
+                },
+                {
+                    "id": 32,
+                    "img": "https://f.fcdn.app/imgs/112827/www.indajaus.com.uy/indauy/62e8/webp/catalogo/6247_6247_1/480x480/fem-blue-zushi-x3-unidades-fem-blue-zushi-x3-unidades.jpg",
+                    "title": "BLUE ZUSHI X3 UNIDADES",
+                    "price": "1.890",
+                    "currency": "$",
+                    "tags": [
+                        "FEM",
+                        "BLUE ZUSHI X3 UNIDADES"
+                    ],
+                    "description": "",
+                    "stock": true
+                },
+                {
+                    "id": 33,
+                    "img": "https://f.fcdn.app/imgs/3d6698/www.indajaus.com.uy/indauy/743b/webp/catalogo/6248_6248_1/480x480/fem-gmo-fast-x3-unidades-fem-gmo-fast-x3-unidades.jpg",
+                    "title": "GMO FAST X3 UNIDADES",
+                    "price": "1.390",
+                    "currency": "$",
+                    "tags": [
+                        "FEM",
+                        "GMO FAST X3 UNIDADES"
+                    ],
+                    "description": "",
+                    "stock": true
+                },
+                {
+                    "id": 34,
+                    "img": "https://f.fcdn.app/imgs/c326cc/www.indajaus.com.uy/indauy/5ef7/webp/catalogo/6249_6249_1/480x480/fem-lemon-z-x3-unidades-fem-lemon-z-x3-unidades.jpg",
+                    "title": "LEMON Z X3 UNIDADES",
+                    "price": "1.590",
+                    "currency": "$",
+                    "tags": [
+                        "FEM",
+                        "LEMON Z X3 UNIDADES"
+                    ],
+                    "description": "",
+                    "stock": true
+                },
+                {
+                    "id": 35,
+                    "img": "https://f.fcdn.app/imgs/5efdd5/www.indajaus.com.uy/indauy/efec/webp/catalogo/6250_6250_1/480x480/fem-melonade-runtz-x3-unidades-fem-melonade-runtz-x3-unidades.jpg",
+                    "title": "MELONADE RUNTZ X3 UNIDADES",
+                    "price": "1.190",
+                    "currency": "$",
+                    "tags": [
+                        "FEM",
+                        "MELONADE RUNTZ X3 UNIDADES"
+                    ],
+                    "description": "",
+                    "stock": true
+                },
+                {
+                    "id": 42,
+                    "img": "https://f.fcdn.app/imgs/18b566/www.indajaus.com.uy/indauy/036f/webp/catalogo/2883_2883_1/480x480/fem-og-24k-x10-unidades-fem-og-24k-x10-unidades.jpg",
+                    "title": "OG 24K",
+                    "price": "4.000",
+                    "currency": "$",
+                    "tags": [
+                        "FEM",
+                        "OG 24K",
+                        "X10 UNIDADES"
+                    ],
+                    "description": "",
+                    "stock": true
+                },
+                {
+                    "id": 59,
+                    "img": "https://f.fcdn.app/imgs/f0079e/www.indajaus.com.uy/indauy/6fc2/webp/catalogo/6118_6118_1/480x480/fem-amsterdam-amnesia-x3-unidades-fem-amsterdam-amnesia-x3-unidades.jpg",
+                    "title": "AMSTERDAM AMNESIA® X3 UNIDADES",
+                    "price": "2.090",
+                    "currency": "$",
+                    "tags": [
+                        "FEM",
+                        "AMSTERDAM AMNESIA® X3 UNIDADES"
+                    ],
+                    "description": "Amsterdam Amnesia es una híbrida original de Amnesia Haze con un rendimiento alto y un elevado porcentaje de THC cercano al 20% de promedio que, en condiciones óptimas, llega al 25%.",
+                    "stock": true
+                },
+                {
+                    "id": 60,
+                    "img": "https://f.fcdn.app/imgs/d70312/www.indajaus.com.uy/indauy/b984/webp/catalogo/6119_6119_1/480x480/fem-banana-blaze-x3-unidades-fem-banana-blaze-x3-unidades.jpg",
+                    "title": "BANANA BLAZE® X3 UNIDADES",
+                    "price": "860",
+                    "currency": "$",
+                    "tags": [
+                        "FEM",
+                        "BANANA BLAZE® X3 UNIDADES"
+                    ],
+                    "description": "Banana Blaze es un híbrido compacto índica dominante con un tiempo de floración relativamente corto, de 8 semanas de promedio.",
+                    "stock": true
+                }
             ]
         },
         {
-            "id": 2,
-            "img": "https://f.fcdn.app/imgs/5302d0/www.indajaus.com.uy/indauy/178e/webp/catalogo/RK-A-SB-_6109_1/480x480/auto-sublimator-x1-unidad.jpg",
-            "title": "Rer Grass",
-            "price": "15,99",
-            "quantity": 5,
-            "currency": "€",
-            "tags": [
-                "cbd",
-                "indica"
+            "category": "AUTO",
+            "menu": [
+                {
+                    "id": 2,
+                    "img": "https://f.fcdn.app/imgs/15adb7/www.indajaus.com.uy/indauy/cd8a/webp/catalogo/6166_6166_1/480x480/auto-skywalker-haze-x3-unidades-auto-skywalker-haze-x3-unidades.jpg",
+                    "title": "SKYWALKER HAZE® X3 UNIDADES",
+                    "price": "1.040",
+                    "currency": "$",
+                    "tags": [
+                        "AUTO",
+                        "SKYWALKER HAZE® X3 UNIDADES"
+                    ],
+                    "description": "Auto Skywalker Haze es una autofloreciente muy potente con un porcentaje de THC altísimo con un promedio de entre 20 y 25 %.",
+                    "stock": true
+                },
+                {
+                    "id": 3,
+                    "img": "https://f.fcdn.app/imgs/84c7a2/www.indajaus.com.uy/indauy/932d/webp/catalogo/6164_6164_1/480x480/auto-orange-bud-x3-unidades-auto-orange-bud-x3-unidades.jpg",
+                    "title": "ORANGE BUD® X3 UNIDADES",
+                    "price": "1.670",
+                    "currency": "$",
+                    "tags": [
+                        "AUTO",
+                        "ORANGE BUD® X3 UNIDADES"
+                    ],
+                    "description": "Auto Orange Bud tiene un aroma cítrico muy penetrante y un auténtico sabor a naranja.",
+                    "stock": true
+                },
+                {
+                    "id": 6,
+                    "img": "https://f.fcdn.app/imgs/7b6af6/www.indajaus.com.uy/indauy/70f0/webp/catalogo/6152_6152_1/480x480/auto-blackberry-kush-x3-unidades-auto-blackberry-kush-x3-unidades.jpg",
+                    "title": "BLACKBERRY KUSH® X3 UNIDADES",
+                    "price": "1.250",
+                    "currency": "$",
+                    "tags": [
+                        "AUTO",
+                        "BLACKBERRY KUSH® X3 UNIDADES"
+                    ],
+                    "description": "Auto Blackberry Kush es una preciosa planta tipo Kush, de color oscuro tirando a morado y resinosa.",
+                    "stock": true
+                },
+                {
+                    "id": 7,
+                    "img": "https://f.fcdn.app/imgs/eea3cb/www.indajaus.com.uy/indauy/2e54/webp/catalogo/RK-A-KL-_6113_1/480x480/auto-klementine-x1-unidad.jpg",
+                    "title": "KLEMENTINE",
+                    "price": "400",
+                    "currency": "$",
+                    "tags": [
+                        "AUTO",
+                        "KLEMENTINE",
+                        "X1 UNIDAD"
+                    ],
+                    "description": "",
+                    "stock": true
+                },
+                {
+                    "id": 8,
+                    "img": "https://f.fcdn.app/imgs/5302d0/www.indajaus.com.uy/indauy/178e/webp/catalogo/RK-A-SB-_6109_1/480x480/auto-sublimator-x1-unidad.jpg",
+                    "title": "SUBLIMATOR",
+                    "price": "400",
+                    "currency": "$",
+                    "tags": [
+                        "AUTO",
+                        "SUBLIMATOR",
+                        "X1 UNIDAD"
+                    ],
+                    "description": "",
+                    "stock": true
+                },
+                {
+                    "id": 18,
+                    "img": "https://f.fcdn.app/imgs/4b1734/www.indajaus.com.uy/indauy/fe11/webp/catalogo/6213_6213_1/480x480/auto-brooklyn-sunrise-x3-unidades-auto-brooklyn-sunrise-x3-unidades.jpg",
+                    "title": "BROOKLYN SUNRISE X3 UNIDADES",
+                    "price": "960",
+                    "currency": "$",
+                    "tags": [
+                        "AUTO",
+                        "BROOKLYN SUNRISE X3 UNIDADES"
+                    ],
+                    "description": "",
+                    "stock": true
+                },
+                {
+                    "id": 19,
+                    "img": "https://f.fcdn.app/imgs/3efcc8/www.indajaus.com.uy/indauy/eedc/webp/catalogo/6215_6215_1/480x480/auto-lemon-kix-x3-unidades-auto-lemon-kix-x3-unidades.jpg",
+                    "title": "LEMON KIX X3 UNIDADES",
+                    "price": "1.720",
+                    "currency": "$",
+                    "tags": [
+                        "AUTO",
+                        "LEMON KIX X3 UNIDADES"
+                    ],
+                    "description": "",
+                    "stock": true
+                },
+                {
+                    "id": 20,
+                    "img": "https://f.fcdn.app/imgs/30c1dd/www.indajaus.com.uy/indauy/3b6e/webp/catalogo/6219_6219_1/480x480/auto-blue-mazar-x3-unidades-auto-blue-mazar-x3-unidades.jpg",
+                    "title": "BLUE MAZAR X3 UNIDADES",
+                    "price": "960",
+                    "currency": "$",
+                    "tags": [
+                        "AUTO",
+                        "BLUE MAZAR X3 UNIDADES"
+                    ],
+                    "description": "",
+                    "stock": true
+                },
+                {
+                    "id": 24,
+                    "img": "https://f.fcdn.app/imgs/661ab5/www.indajaus.com.uy/indauy/a9c9/webp/catalogo/6214_6214_1/480x480/auto-kerosene-krash-x3-unidades-auto-kerosene-krash-x3-unidades.jpg",
+                    "title": "KEROSENE KRASH X3 UNIDADES",
+                    "price": "3.440",
+                    "currency": "$",
+                    "tags": [
+                        "AUTO",
+                        "KEROSENE KRASH X3 UNIDADES"
+                    ],
+                    "description": "",
+                    "stock": true
+                },
+                {
+                    "id": 25,
+                    "img": "https://f.fcdn.app/imgs/a1d1f1/www.indajaus.com.uy/indauy/3f5e/webp/catalogo/6216_6216_1/480x480/auto-mokums-tulip-x3-unidades-auto-mokums-tulip-x3-unidades.jpg",
+                    "title": "MOKUMS TULIP X3 UNIDADES",
+                    "price": "1.720",
+                    "currency": "$",
+                    "tags": [
+                        "AUTO",
+                        "MOKUMS TULIP X3 UNIDADES"
+                    ],
+                    "description": "",
+                    "stock": true
+                },
+                {
+                    "id": 26,
+                    "img": "https://f.fcdn.app/imgs/f1382a/www.indajaus.com.uy/indauy/96e3/webp/catalogo/6217_6217_1/480x480/auto-night-queen-x3-unidades-auto-night-queen-x3-unidades.jpg",
+                    "title": "NIGHT QUEEN X3 UNIDADES",
+                    "price": "1.160",
+                    "currency": "$",
+                    "tags": [
+                        "AUTO",
+                        "NIGHT QUEEN X3 UNIDADES"
+                    ],
+                    "description": "",
+                    "stock": true
+                },
+                {
+                    "id": 27,
+                    "img": "https://f.fcdn.app/imgs/630ba8/www.indajaus.com.uy/indauy/4da6/webp/catalogo/6218_6218_1/480x480/auto-xtreme-haze-x3-unidades-auto-xtreme-haze-x3-unidades.jpg",
+                    "title": "XTREME HAZE X3 UNIDADES",
+                    "price": "960",
+                    "currency": "$",
+                    "tags": [
+                        "AUTO",
+                        "XTREME HAZE X3 UNIDADES"
+                    ],
+                    "description": "",
+                    "stock": true
+                },
+                {
+                    "id": 29,
+                    "img": "https://f.fcdn.app/imgs/5c3c49/www.indajaus.com.uy/indauy/b1d4/webp/catalogo/6244_6244_1/480x480/auto-cbg-force-x3-unidades-auto-cbg-force-x3-unidades.jpg",
+                    "title": "CBG FORCE X3 UNIDADES",
+                    "price": "1.890",
+                    "currency": "$",
+                    "tags": [
+                        "AUTO",
+                        "CBG FORCE X3 UNIDADES"
+                    ],
+                    "description": "",
+                    "stock": true
+                },
+                {
+                    "id": 30,
+                    "img": "https://f.fcdn.app/imgs/8f00fe/www.indajaus.com.uy/indauy/b1d4/webp/catalogo/6245_6245_1/480x480/auto-forbidden-cherry-x3-unidades-auto-forbidden-cherry-x3-unidades.jpg",
+                    "title": "FORBIDDEN CHERRY X3 UNIDADES",
+                    "price": "1.390",
+                    "currency": "$",
+                    "tags": [
+                        "AUTO",
+                        "FORBIDDEN CHERRY X3 UNIDADES"
+                    ],
+                    "description": "",
+                    "stock": true
+                },
+                {
+                    "id": 31,
+                    "img": "https://f.fcdn.app/imgs/3c2e61/www.indajaus.com.uy/indauy/0d0f/webp/catalogo/6246_6246_1/480x480/auto-thc-victory-x3-unidades-auto-thc-victory-x3-unidades.jpg",
+                    "title": "THC VICTORY X3 UNIDADES",
+                    "price": "3.490",
+                    "currency": "$",
+                    "tags": [
+                        "AUTO",
+                        "THC VICTORY X3 UNIDADES"
+                    ],
+                    "description": "",
+                    "stock": true
+                },
+                {
+                    "id": 36,
+                    "img": "https://f.fcdn.app/imgs/62d24a/www.indajaus.com.uy/indauy/7f6d/webp/catalogo/6251_6251_1/480x480/auto-melonade-runtz-x3-unidades-auto-melonade-runtz-x3-unidades.jpg",
+                    "title": "MELONADE RUNTZ X3 UNIDADES",
+                    "price": "1.190",
+                    "currency": "$",
+                    "tags": [
+                        "AUTO",
+                        "MELONADE RUNTZ X3 UNIDADES"
+                    ],
+                    "description": "",
+                    "stock": true
+                }
             ]
         },
         {
-            "id": 3,
-            "img": "https://f.fcdn.app/imgs/873265/www.indajaus.com.uy/indauy/f163/webp/catalogo/RK-F-XN-_3164_1/2000-2000/fem-el-xupet-negre-x1-unidad.jpg",
-            "title": "Heizi Heiz",
-            "price": "10",
-            "quantity": 3,
-            "currency": "€",
-            "tags": [
-                "thc",
-                "indica"
-            ]
-        },
-        {
-            "id": 4,
-            "img": "https://f.fcdn.app/imgs/194562/www.indajaus.com.uy/indauy/ec97/webp/catalogo/RK-F-FD-_6104_1/2000-2000/fem-fancy-donrouch-x1-unidad.jpg",
-            "title": "Fancy kush",
-            "price": "7",
-            "quantity": 3,
-            "currency": "€",
-            "tags": [
-                "cbd",
-                "kush",
-                "sativa"
-            ]
-        },
-        {
-            "id": 5,
-            "img": "https://f.fcdn.app/imgs/63fc6b/www.indajaus.com.uy/indauy/2e54/webp/catalogo/RK-A-KL-_6113_1/2000-2000/auto-klementine-x1-unidad.jpg",
-            "title": "Mari huano",
-            "price": "19,99",
-            "quantity": 5,
-            "currency": "$",
-            "tags": [
-                "kush",
-                "sativa",
-                "thc"
-            ]
-        },
-        {
-            "id": 6,
-            "img": "https://f.fcdn.app/imgs/5302d0/www.indajaus.com.uy/indauy/178e/webp/catalogo/RK-A-SB-_6109_1/480x480/auto-sublimator-x1-unidad.jpg",
-            "title": "Delo rto",
-            "price": "15,99",
-            "quantity": 5,
-            "currency": "€",
-            "tags": [
-                "cbd",
-                "indica"
-            ]
-        },
-        {
-            "id": 7,
-            "img": "https://f.fcdn.app/imgs/873265/www.indajaus.com.uy/indauy/f163/webp/catalogo/RK-F-XN-_3164_1/2000-2000/fem-el-xupet-negre-x1-unidad.jpg",
-            "title": "Seco seco",
-            "price": "10",
-            "quantity": 3,
-            "currency": "€",
-            "tags": [
-                "thc",
-                "indica"
-            ]
-        },
-        {
-            "id": 8,
-            "img": "https://f.fcdn.app/imgs/194562/www.indajaus.com.uy/indauy/ec97/webp/catalogo/RK-F-FD-_6104_1/2000-2000/fem-fancy-donrouch-x1-unidad.jpg",
-            "title": "Disco Stu (Sexo)",
-            "price": "2",
-            "quantity": 3,
-            "currency": "€",
-            "tags": [
-                "cbd",
-                "kush",
-                "sativa"
+            "category": "MIX AUTO",
+            "menu": [
+                {
+                    "id": 58,
+                    "img": "https://f.fcdn.app/imgs/2e3ef2/www.indajaus.com.uy/indauy/70af/webp/catalogo/6117_6117_1/480x480/mix-auto-x6-unidades-mix-auto-x6-unidades.jpg",
+                    "title": "X6 UNIDADES",
+                    "price": "1.680",
+                    "currency": "$",
+                    "tags": [
+                        "MIX AUTO",
+                        "X6 UNIDADES"
+                    ],
+                    "description": "",
+                    "stock": true
+                }
             ]
         }
     ]

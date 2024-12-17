@@ -1,6 +1,7 @@
 import './homepage.scss';
 import { useState } from 'react';
-import { ProductList, FilterList, Search, Nav, Footer, PopUpCard } from 'components';
+import { ProductList, FilterList, Search, Nav, Footer, PopUpCard, CategoryList } from 'components';
+import { getTags } from 'utils/getTags';
 const Homepage = () => {
 
 	
@@ -8,6 +9,7 @@ const Homepage = () => {
 	const [popUp, setPopUp] = useState(null);
 
 
+	const tags = getTags();
 	return (
 		<div>
 			<div>
@@ -18,8 +20,12 @@ const Homepage = () => {
 				<div className='filters'>
 					<FilterList 
 						filters={filters} 
-						onFiltersChange={setFilters} />
-					<Search />
+						onFiltersChange={setFilters}
+						tags={tags} />
+					<Search 
+						filters={filters}
+						onFiltersChange={setFilters}
+					/>
 				</div>
 			</div>
 			<div>
@@ -35,7 +41,14 @@ const Homepage = () => {
 					filters={filters}
 					onPopUp={setPopUp}
 				/>
+
+				<div>
+					<CategoryList
+						filters={filters}
+					/>
+				</div>
 			</div>
+
 			<div>
 				<Footer
 				/>

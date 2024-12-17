@@ -1,0 +1,334 @@
+{
+    "categories": [
+        {
+            "category": "Semillas",
+            "menu": [
+                {
+                    "id": 11,
+                    "img": "https://example.com/images/product11.jpg",
+                    "title": "AK-47 - Pack 5",
+                    "price": "1,150",
+                    "currency": "UYU",
+                    "tags": [
+                        "semillas",
+                        "híbrido",
+                        "versátil"
+                    ],
+                    "description": "AK-47 es una variedad versátil, con un balance perfecto entre relajación y energía.",
+                    "stock": true,
+                    "url": "https://example.com/products/ak-47-pack5",
+                    "brand": "Genetics Pro"
+                },
+                {
+                    "id": 12,
+                    "img": "https://example.com/images/product12.jpg",
+                    "title": "Sour Diesel - Pack 3",
+                    "price": "980",
+                    "currency": "UYU",
+                    "tags": [
+                        "semillas",
+                        "sativa",
+                        "diesel"
+                    ],
+                    "description": "Sour Diesel destaca por su aroma a combustible y su efecto estimulante.",
+                    "stock": false,
+                    "url": "https://example.com/products/sour-diesel-pack3",
+                    "brand": "Diesel Co."
+                },
+                {
+                    "id": 13,
+                    "img": "https://example.com/images/product13.jpg",
+                    "title": "Gorilla Glue - Pack 1",
+                    "price": "600",
+                    "currency": "UYU",
+                    "tags": [
+                        "semillas",
+                        "híbrido",
+                        "resinosa"
+                    ],
+                    "description": "Gorilla Glue es conocida por su alto contenido de resina y su efecto potente.",
+                    "stock": true,
+                    "url": "https://example.com/products/gorilla-glue-pack1",
+                    "brand": "Sticky Genetics"
+                },
+                {
+                    "id": 14,
+                    "img": "https://example.com/images/product14.jpg",
+                    "title": "Cheese - Pack 10",
+                    "price": "1,900",
+                    "currency": "UYU",
+                    "tags": [
+                        "semillas",
+                        "indica",
+                        "aroma fuerte"
+                    ],
+                    "description": "Cheese ofrece un perfil aromático único, ideal para quienes buscan algo distinto.",
+                    "stock": false,
+                    "url": "https://example.com/products/cheese-pack10",
+                    "brand": "Unique Strains"
+                },
+                {
+                    "id": 15,
+                    "img": "https://example.com/images/product15.jpg",
+                    "title": "Bubble Gum - Pack 3",
+                    "price": "970",
+                    "currency": "UYU",
+                    "tags": [
+                        "semillas",
+                        "híbrido",
+                        "dulce"
+                    ],
+                    "description": "Bubble Gum ofrece un sabor dulce y un efecto relajante, ideal para disfrutar.",
+                    "stock": true,
+                    "url": "https://example.com/products/bubble-gum-pack3",
+                    "brand": "Candy Genetics"
+                },
+                {
+                    "id": 16,
+                    "img": "https://example.com/images/product16.jpg",
+                    "title": "Chronic - Pack 1",
+                    "price": "520",
+                    "currency": "UYU",
+                    "tags": [
+                        "semillas",
+                        "híbrido",
+                        "productiva"
+                    ],
+                    "description": "Chronic es conocida por sus rendimientos altos y su aroma dulce.",
+                    "stock": true,
+                    "url": "https://example.com/products/chronic-pack1",
+                    "brand": "High Yield"
+                },
+                {
+                    "id": 17,
+                    "img": "https://example.com/images/product17.jpg",
+                    "title": "Trainwreck - Pack 5",
+                    "price": "1,400",
+                    "currency": "UYU",
+                    "tags": [
+                        "semillas",
+                        "híbrido",
+                        "potente"
+                    ],
+                    "description": "Trainwreck es una variedad potente con efectos cerebrales y relajantes.",
+                    "stock": true,
+                    "url": "https://example.com/products/trainwreck-pack5",
+                    "brand": "Power Genetics"
+                },
+                {
+                    "id": 18,
+                    "img": "https://example.com/images/product18.jpg",
+                    "title": "Jack Herer - Pack 3",
+                    "price": "1,050",
+                    "currency": "UYU",
+                    "tags": [
+                        "semillas",
+                        "sativa",
+                        "clásico"
+                    ],
+                    "description": "Jack Herer, un homenaje a un ícono del cannabis, ofrece un efecto estimulante y creativo.",
+                    "stock": true,
+                    "url": "https://example.com/products/jack-herer-pack3",
+                    "brand": "Heritage Seeds"
+                },
+                {
+                    "id": 19,
+                    "img": "https://example.com/images/product19.jpg",
+                    "title": "Pineapple Express - Pack 1",
+                    "price": "580",
+                    "currency": "UYU",
+                    "tags": [
+                        "semillas",
+                        "híbrido",
+                        "afrutada"
+                    ],
+                    "description": "Pineapple Express combina notas tropicales con un efecto equilibrado.",
+                    "stock": false,
+                    "url": "https://example.com/products/pineapple-express-pack1",
+                    "brand": "Tropical Genetics"
+                },
+                {
+                    "id": 20,
+                    "img": "https://example.com/images/product20.jpg",
+                    "title": "Blue Dream - Pack 5",
+                    "price": "1,320",
+                    "currency": "UYU",
+                    "tags": [
+                        "semillas",
+                        "híbrido",
+                        "popular"
+                    ],
+                    "description": "Blue Dream, una de las variedades más populares, ofrece un equilibrio perfecto entre cuerpo y mente.",
+                    "stock": true,
+                    "url": "https://example.com/products/blue-dream-pack5",
+                    "brand": "Dream Co."
+                }
+            ]
+        },
+        {
+            "category": "Sentadillas",
+            "menu": [
+                {
+                    "id": 11,
+                    "img": "https://example.com/images/product11.jpg",
+                    "title": "AK-47 - Pack 5",
+                    "price": "1,150",
+                    "currency": "UYU",
+                    "tags": [
+                        "semillas",
+                        "híbrido",
+                        "versátil"
+                    ],
+                    "description": "AK-47 es una variedad versátil, con un balance perfecto entre relajación y energía.",
+                    "stock": true,
+                    "url": "https://example.com/products/ak-47-pack5",
+                    "brand": "Genetics Pro"
+                },
+                {
+                    "id": 12,
+                    "img": "https://example.com/images/product12.jpg",
+                    "title": "Sour Diesel - Pack 3",
+                    "price": "980",
+                    "currency": "UYU",
+                    "tags": [
+                        "semillas",
+                        "sativa",
+                        "diesel"
+                    ],
+                    "description": "Sour Diesel destaca por su aroma a combustible y su efecto estimulante.",
+                    "stock": false,
+                    "url": "https://example.com/products/sour-diesel-pack3",
+                    "brand": "Diesel Co."
+                },
+                {
+                    "id": 13,
+                    "img": "https://example.com/images/product13.jpg",
+                    "title": "Gorilla Glue - Pack 1",
+                    "price": "600",
+                    "currency": "UYU",
+                    "tags": [
+                        "semillas",
+                        "híbrido",
+                        "resinosa"
+                    ],
+                    "description": "Gorilla Glue es conocida por su alto contenido de resina y su efecto potente.",
+                    "stock": true,
+                    "url": "https://example.com/products/gorilla-glue-pack1",
+                    "brand": "Sticky Genetics"
+                },
+                {
+                    "id": 14,
+                    "img": "https://example.com/images/product14.jpg",
+                    "title": "Cheese - Pack 10",
+                    "price": "1,900",
+                    "currency": "UYU",
+                    "tags": [
+                        "semillas",
+                        "indica",
+                        "aroma fuerte"
+                    ],
+                    "description": "Cheese ofrece un perfil aromático único, ideal para quienes buscan algo distinto.",
+                    "stock": false,
+                    "url": "https://example.com/products/cheese-pack10",
+                    "brand": "Unique Strains"
+                },
+                {
+                    "id": 15,
+                    "img": "https://example.com/images/product15.jpg",
+                    "title": "Bubble Gum - Pack 3",
+                    "price": "970",
+                    "currency": "UYU",
+                    "tags": [
+                        "semillas",
+                        "híbrido",
+                        "dulce"
+                    ],
+                    "description": "Bubble Gum ofrece un sabor dulce y un efecto relajante, ideal para disfrutar.",
+                    "stock": true,
+                    "url": "https://example.com/products/bubble-gum-pack3",
+                    "brand": "Candy Genetics"
+                },
+                {
+                    "id": 16,
+                    "img": "https://example.com/images/product16.jpg",
+                    "title": "Chronic - Pack 1",
+                    "price": "520",
+                    "currency": "UYU",
+                    "tags": [
+                        "semillas",
+                        "híbrido",
+                        "productiva"
+                    ],
+                    "description": "Chronic es conocida por sus rendimientos altos y su aroma dulce.",
+                    "stock": true,
+                    "url": "https://example.com/products/chronic-pack1",
+                    "brand": "High Yield"
+                },
+                {
+                    "id": 17,
+                    "img": "https://example.com/images/product17.jpg",
+                    "title": "Trainwreck - Pack 5",
+                    "price": "1,400",
+                    "currency": "UYU",
+                    "tags": [
+                        "semillas",
+                        "híbrido",
+                        "potente"
+                    ],
+                    "description": "Trainwreck es una variedad potente con efectos cerebrales y relajantes.",
+                    "stock": true,
+                    "url": "https://example.com/products/trainwreck-pack5",
+                    "brand": "Power Genetics"
+                },
+                {
+                    "id": 18,
+                    "img": "https://example.com/images/product18.jpg",
+                    "title": "Jack Herer - Pack 3",
+                    "price": "1,050",
+                    "currency": "UYU",
+                    "tags": [
+                        "semillas",
+                        "sativa",
+                        "clásico"
+                    ],
+                    "description": "Jack Herer, un homenaje a un ícono del cannabis, ofrece un efecto estimulante y creativo.",
+                    "stock": true,
+                    "url": "https://example.com/products/jack-herer-pack3",
+                    "brand": "Heritage Seeds"
+                },
+                {
+                    "id": 19,
+                    "img": "https://example.com/images/product19.jpg",
+                    "title": "Pineapple Express - Pack 1",
+                    "price": "580",
+                    "currency": "UYU",
+                    "tags": [
+                        "semillas",
+                        "híbrido",
+                        "afrutada"
+                    ],
+                    "description": "Pineapple Express combina notas tropicales con un efecto equilibrado.",
+                    "stock": false,
+                    "url": "https://example.com/products/pineapple-express-pack1",
+                    "brand": "Tropical Genetics"
+                },
+                {
+                    "id": 20,
+                    "img": "https://example.com/images/product20.jpg",
+                    "title": "Blue Dream - Pack 5",
+                    "price": "1,320",
+                    "currency": "UYU",
+                    "tags": [
+                        "semillas",
+                        "híbrido",
+                        "popular"
+                    ],
+                    "description": "Blue Dream, una de las variedades más populares, ofrece un equilibrio perfecto entre cuerpo y mente.",
+                    "stock": true,
+                    "url": "https://example.com/products/blue-dream-pack5",
+                    "brand": "Dream Co."
+                }
+            ]
+        }
+    ]
+}

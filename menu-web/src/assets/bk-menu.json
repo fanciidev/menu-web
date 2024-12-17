@@ -1,0 +1,104 @@
+{
+    "menu": [
+        {
+            "id": 1,
+            "img": "https://f.fcdn.app/imgs/63fc6b/www.indajaus.com.uy/indauy/2e54/webp/catalogo/RK-A-KL-_6113_1/2000-2000/auto-klementine-x1-unidad.jpg",
+            "title": "Yello Kush",
+            "price": "19,99",
+            "quantity": 5,
+            "currency": "$",
+            "tags": [
+                "kush",
+                "sativa",
+                "thc"
+            ]
+        },
+        {
+            "id": 2,
+            "img": "https://f.fcdn.app/imgs/5302d0/www.indajaus.com.uy/indauy/178e/webp/catalogo/RK-A-SB-_6109_1/480x480/auto-sublimator-x1-unidad.jpg",
+            "title": "Rer Grass",
+            "price": "15,99",
+            "quantity": 5,
+            "currency": "€",
+            "tags": [
+                "cbd",
+                "indica"
+            ]
+        },
+        {
+            "id": 3,
+            "img": "https://f.fcdn.app/imgs/873265/www.indajaus.com.uy/indauy/f163/webp/catalogo/RK-F-XN-_3164_1/2000-2000/fem-el-xupet-negre-x1-unidad.jpg",
+            "title": "Heizi Heiz",
+            "price": "10",
+            "quantity": 3,
+            "currency": "€",
+            "tags": [
+                "thc",
+                "indica"
+            ]
+        },
+        {
+            "id": 4,
+            "img": "https://f.fcdn.app/imgs/194562/www.indajaus.com.uy/indauy/ec97/webp/catalogo/RK-F-FD-_6104_1/2000-2000/fem-fancy-donrouch-x1-unidad.jpg",
+            "title": "Fancy kush",
+            "price": "7",
+            "quantity": 3,
+            "currency": "€",
+            "tags": [
+                "cbd",
+                "kush",
+                "sativa"
+            ]
+        },
+        {
+            "id": 5,
+            "img": "https://f.fcdn.app/imgs/63fc6b/www.indajaus.com.uy/indauy/2e54/webp/catalogo/RK-A-KL-_6113_1/2000-2000/auto-klementine-x1-unidad.jpg",
+            "title": "Mari huano",
+            "price": "19,99",
+            "quantity": 5,
+            "currency": "$",
+            "tags": [
+                "kush",
+                "sativa",
+                "thc"
+            ]
+        },
+        {
+            "id": 6,
+            "img": "https://f.fcdn.app/imgs/5302d0/www.indajaus.com.uy/indauy/178e/webp/catalogo/RK-A-SB-_6109_1/480x480/auto-sublimator-x1-unidad.jpg",
+            "title": "Delo rto",
+            "price": "15,99",
+            "quantity": 5,
+            "currency": "€",
+            "tags": [
+                "cbd",
+                "indica"
+            ]
+        },
+        {
+            "id": 7,
+            "img": "https://f.fcdn.app/imgs/873265/www.indajaus.com.uy/indauy/f163/webp/catalogo/RK-F-XN-_3164_1/2000-2000/fem-el-xupet-negre-x1-unidad.jpg",
+            "title": "Seco seco",
+            "price": "10",
+            "quantity": 3,
+            "currency": "€",
+            "tags": [
+                "thc",
+                "indica"
+            ]
+        },
+        {
+            "id": 8,
+            "img": "https://f.fcdn.app/imgs/194562/www.indajaus.com.uy/indauy/ec97/webp/catalogo/RK-F-FD-_6104_1/2000-2000/fem-fancy-donrouch-x1-unidad.jpg",
+            "title": "Disco Stu (Sexo)",
+            "price": "2",
+            "quantity": 3,
+            "currency": "€",
+            "tags": [
+                "cbd",
+                "kush",
+                "sativa"
+            ]
+        }
+    ]
+}

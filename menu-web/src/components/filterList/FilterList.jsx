@@ -1,7 +1,7 @@
 import  './FilterList.scss';
 import Filter from '../filter/Filter';
-import tags from 'assets/tags.js';
-const FilterList = ({filters, onFiltersChange}) => {
+// import tags from 'assets/tags.js';
+const FilterList = ({filters, onFiltersChange, tags}) => {
 	const handleFilterChange = (filter) => {
 		if (filters.includes(filter)) {
 			onFiltersChange(filters.filter(f => f !== filter));
@@ -9,9 +9,10 @@ const FilterList = ({filters, onFiltersChange}) => {
 			onFiltersChange([...filters, filter]);
 		}
 	};  
+	const fullFilterList = [...new Set([...tags, ...filters])];
 	return (
 		<div className="filter-list">
-			{tags.map((item) => 
+			{fullFilterList.map((item) => 
 				<Filter 
 					key={item} 
 					label={item}

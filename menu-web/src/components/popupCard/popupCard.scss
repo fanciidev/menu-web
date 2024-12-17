@@ -24,7 +24,33 @@
     padding: 20px;
     border: 1px solid #888;
     width: 50%;
+    transition: all 0.3s ease-in-out;
+
     /* Could be more or less, depending on screen size */
+
+    .popupCard-close-button {
+        cursor: pointer;
+        display: flex;
+        justify-content: end;
+
+        .close {
+            font-size: 30px;
+            padding-right: 14px;
+            padding-left: 14px;
+
+            &:hover {
+                color: rgb(20, 67, 118);
+                background-color: rgba($color: #2b4e8c, $alpha: 0.2);
+                border-radius: 100px;
+                transition: all 0.2s ease-in-out;
+            }
+
+            &:active {
+                cursor: pointer;
+                transform: scale(0.9);
+            }
+        }
+    }
 
     .popupCard-img {
         width: 200px;

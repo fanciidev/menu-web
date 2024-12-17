@@ -1,9 +1,9 @@
 import "./categoryList.scss";
 import Category from "../category/Category";
-import menu from "assets/menu.json";
-const categories = menu.categories;
+
 let idCounter = 0;
-const CategoryList = ({filters, onPopUp}) => {
+const CategoryList = ({filters, onPopUp, menu}) => {
+	const categories = menu.categories;
 	return (
 		<div className="category-list">
 			{categories.map((categoryItem) => 
@@ -11,8 +11,8 @@ const CategoryList = ({filters, onPopUp}) => {
 					name={categoryItem.category} 
 					filters={filters} 
 					menu={categoryItem.menu} 
-					key={++idCounter}/>)};
-					onPopUp={onPopUp}    
+					key={++idCounter}
+					onPopUp={onPopUp}/>)};
 		</div>
 	);
 };

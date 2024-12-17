@@ -8,6 +8,8 @@ const PopUpCard = ({ imgPath, title, price, currency, tags, description, stock }
 		setIsOpen(!isOpen);
 	};
 
+	console.log(imgPath, title, price, currency, tags, description, stock);
+
 	return (
 		<div className="cardPopedUp">
 			<div className="popupContainer">

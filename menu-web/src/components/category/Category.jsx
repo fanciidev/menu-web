@@ -1,12 +1,13 @@
 import { Header, ProductList } from 'components';
 import "./category.scss";
-const Category = ({name, filters, menu}) => {
+const Category = ({name, filters, menu, onPopUp}) => {
 	return (
 		<div className="category">
 			<Header text={name} />
 			<ProductList 
 				filters={filters}
-				menu={menu} />
+				menu={menu} 
+				onPopUp={onPopUp}/>
 		</div>
 	);
 };

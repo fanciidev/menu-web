@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import './search.scss';
-function Search({filters, onFiltersChange}) {  
-	const [isActive, setActive] = useState(false);
+function Search({filters, onFiltersChange, isActive, setActive}) {  
 	const handleFilterChange = (filter) => {
 		if (filters.includes(filter)) {
 			onFiltersChange(filters.filter(f => f !== filter));

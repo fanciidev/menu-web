@@ -5,7 +5,7 @@ const Filter = ({onClick, label, active}) => {
 			className={`filter ${active ? "active" : ""}` }
 			onClick={onClick}
 		>
-			{label}
+			{label.toUpperCase()}
 		</button>
 	);
 };

@@ -1,5 +1,11 @@
-.filters{
+.filters {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+
+    div {
+        margin-left: 40px;
+    }
 }
+
+.search-active {}

@@ -1,5 +1,39 @@
-.filter-list{
+.carrousel {
+    width: 50%;
+    border-radius: 75px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 0 10px;
+    border: 1px solid #e0e0e0;
+    background-color: antiquewhite;
+}
+
+.search-active {
+    width: 35%;
+}
+
+.carrousel::-webkit-scrollbar {
+    height: 10px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+.carrousel::-webkit-scrollbar-thumb {
+    background-color: rgba(136, 136, 136, 0.2);
+    border-radius: 10px;
+}
+
+.filter-list {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 18%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.filter {
+    font-size: small;
+    font-weight: bold;
+    scroll-snap-align: start;
 }

@@ -4,6 +4,8 @@ import { CategoryList, FilterList, Search, Nav, Footer } from 'components';
 import { getTags } from 'utils/getTags';
 const Homepage = () => {
 	const [filters, setFilters] = useState([]);
+	const [searchActive, setSearchActive] = useState(false);
+
 	const tags = getTags();
 	return (
 		<div>
@@ -16,9 +18,12 @@ const Homepage = () => {
 					<FilterList 
 						filters={filters} 
 						onFiltersChange={setFilters}
-						tags={tags} />
+						tags={tags}
+						searchActive={searchActive} />
 					<Search 
 						filters={filters}
+						isActive={searchActive}
+						setActive={setSearchActive}
 						onFiltersChange={setFilters}
 					/>
 				</div>

@@ -1,11 +1,14 @@
 import './homepage.scss';
 import { useState } from 'react';
-import { CategoryList, FilterList, Search, Nav, Footer } from 'components';
+import { ProductList, FilterList, Search, Nav, Footer, PopUpCard, CategoryList } from 'components';
 import { getTags } from 'utils/getTags';
+import menu from "assets/menu.json";
 const Homepage = () => {
-	const [filters, setFilters] = useState([]);
-	const [searchActive, setSearchActive] = useState(false);
 
+	
+	const [filters, setFilters] = useState([]);
+	const [popUp, setPopUp] = useState(null);
+	const [searchActive, setSearchActive] = useState(false);
 	const tags = getTags();
 	return (
 		<div>
@@ -29,10 +32,17 @@ const Homepage = () => {
 				</div>
 			</div>
 			<div>
-
+				{popUp && (
+					<PopUpCard
+						menu={menu}
+						onClose={() => setPopUp(null)}
+					/>
+				)}
 				<div>
 					<CategoryList
 						filters={filters}
+						onPopUp={setPopUp}
+						menu={menu}
 					/>
 				</div>
 			</div>

@@ -37,11 +37,6 @@ const Homepage = () => {
 						price={popUp.price}
 					/>
 				)}
-				<ProductList 
-					filters={filters}
-					onPopUp={setPopUp}
-				/>
-
 				<div>
 					<CategoryList
 						filters={filters}

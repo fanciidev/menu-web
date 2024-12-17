@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./popupCard.scss";
 
-const PopUpCard = ({ imgPath, title, currency, price }) => {
+const PopUpCard = ({ imgPath, title, price, currency, tags, description, stock }) => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	const togglePopup = () => {
@@ -15,6 +15,24 @@ const PopUpCard = ({ imgPath, title, currency, price }) => {
 				<div className="popupCard-body">
 					<h3 className="popupCard-title">{title}</h3>
 					<p className="popupCard-price">{currency + price}</p>
+
+					<div className="popupCard-tags">
+						{tags.map((tag) => (
+							<span key={tag}>{tag}</span>
+						))}
+					</div>
+
+					<div className="popupCard-description">
+						<p>{description}</p>
+					</div>
+
+					<div className="popupCard-stock">
+						{stock ? (
+							<p>Stock disponible</p>
+						) : (
+							<p>Stock agotado</p>
+						)}
+					</div>
 				</div>
 			</div>
 			{isOpen && (

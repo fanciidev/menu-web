@@ -1,5 +1,5 @@
 import Card from '../card/Card';
-const ProductList = ({filters, menu}) => {
+const ProductList = ({filters, menu, onPopUp}) => {
 	const filterProducts = () => {
 		if (filters.length === 0) {
 			return menu;
@@ -17,6 +17,7 @@ const ProductList = ({filters, menu}) => {
 				title={item.title.toUpperCase()} 
 				currency={item.currency}
 				price={!item.price.includes(',') ? item.price + ",00" : item.price}
+				onPopUp={onPopUp}
 			/>)}
 	</div>);
 };

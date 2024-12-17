@@ -1,5 +1,8 @@
 import "./card.scss";
 import { PopUpCard } from "components";
+
+
+
 const Card = ({imgPath, title, currency, price, onPopUp}) => {
 	return (
 		<div onClick={() => onPopUp({imgPath, title, currency, price})} className="card">

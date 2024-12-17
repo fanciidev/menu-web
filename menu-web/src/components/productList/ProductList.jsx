@@ -1,5 +1,5 @@
 import Card from '../card/Card';
-const ProductList = ({filters, menu, onPopUp}) => {
+const ProductList = ({categoryName, filters, menu, onPopUp}) => {
 	const filterProducts = () => {
 		if (filters.length === 0) {
 			return menu;
@@ -12,7 +12,9 @@ const ProductList = ({filters, menu, onPopUp}) => {
 	return (<div className="card-container">
 		{filteredProducts.map((item) => 
 			<Card 
-				key={item.id} 
+				key={item.id}
+				menuId={item.id}
+				categoryName={categoryName}
 				imgPath={item.img} 
 				title={item.title.toUpperCase()} 
 				currency={item.currency}

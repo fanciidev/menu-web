@@ -3,9 +3,9 @@ import { PopUpCard } from "components";
 
 
 
-const Card = ({imgPath, title, currency, price, onPopUp}) => {
+const Card = ({menuId, categoryName, imgPath, title, currency, price, onPopUp}) => {
 	return (
-		<div onClick={() => onPopUp({imgPath, title, currency, price})} className="card">
+		<div onClick={() => onPopUp({menuId, categoryName, imgPath, title, currency, price})} className="card">
 			<div className="container">
 				<img src={imgPath} className="card-img" alt="" />
 				<div className="card-body">

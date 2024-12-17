@@ -1,26 +1,51 @@
-
-.cardPopedUp{
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+.cardPopedUp {
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
     left: 0;
-    top: 0; 
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: hidden; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: hidden;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
 }
 
 .popupContainer {
     background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
+    margin: 15% auto;
+    /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 50%; /* Could be more or less, depending on screen size */
+    width: 50%;
+    /* Could be more or less, depending on screen size */
 
-    .popupCard-img{
+    .popupCard-img {
         width: 200px;
         height: 100px;
         object-fit: cover;
     }
-  }
+
+    .popupCard-body {
+
+        .popupCard-tags {
+            display: flex;
+            justify-content: space-evenly;
+
+            .popupCard-tag {
+                font-size: 10px;
+                border: 1px solid rgba($color: #2c2b2b, $alpha: 0.6);
+                border-radius: 6px;
+                padding: 6px;
+                background-color: rgba($color: #2c2b2b, $alpha: 0.1);
+                color: rgba($color: #2c2b2b, $alpha: 0.6);
+            }
+        }
+    }
+}

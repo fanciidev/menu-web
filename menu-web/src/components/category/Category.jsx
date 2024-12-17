@@ -5,6 +5,7 @@ const Category = ({name, filters, menu, onPopUp}) => {
 		<div className="category">
 			<Header text={name} />
 			<ProductList 
+				categoryName={name}
 				filters={filters}
 				menu={menu} 
 				onPopUp={onPopUp}/>

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./popupCard.scss";
 
 const PopUpCard = ({ imgPath, title, currency, price }) => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -8,12 +9,12 @@ const PopUpCard = ({ imgPath, title, currency, price }) => {
 	};
 
 	return (
-		<div className="card">
-			<div className="container">
-				<img src={imgPath} className="card-img" alt="" />
-				<div className="card-body">
-					<h3 className="card-title">{title}</h3>
-					<p className="card-price">{currency + price}</p>
+		<div className="cardPopedUp">
+			<div className="popupContainer">
+				<img src={imgPath} className="popupCard-img" alt="" />
+				<div className="popupCard-body">
+					<h3 className="popupCard-title">{title}</h3>
+					<p className="popupCard-price">{currency + price}</p>
 				</div>
 			</div>
 			{isOpen && (

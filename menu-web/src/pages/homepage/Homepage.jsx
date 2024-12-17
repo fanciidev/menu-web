@@ -2,8 +2,12 @@ import './homepage.scss';
 import { useState } from 'react';
 import { ProductList, FilterList, Search, Nav, Footer, PopUpCard } from 'components';
 const Homepage = () => {
+
+	
 	const [filters, setFilters] = useState([]);
 	const [popUp, setPopUp] = useState(null);
+
+
 	return (
 		<div>
 			<div>

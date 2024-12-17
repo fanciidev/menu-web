@@ -4,6 +4,10 @@
     display: flex;
     padding: 0.5em !important;
 
+    @media (max-width: 1250px) {
+        width: 46%;
+    }
+
 
     .container {
         border: 1px solid #e0e0e0;

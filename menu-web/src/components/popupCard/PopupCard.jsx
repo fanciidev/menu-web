@@ -4,28 +4,37 @@ import "./popupCard.scss";
 const PopUpCard = ({ item, setPopUp }) => {
 	const handleClickOutside = (event) => {
 		// Verifica si el clic fue fuera del componente referenciado
-		if (event.target.getAttribute("class") == "cardPopedUp") {
-		  setPopUp(null);
+		if (event.target.getAttribute("class") === "cardPopedUp") {
+			setPopUp(null);
 		}
-	  };
-	  useEffect(() => {
+	};
+
+	useEffect(() => {
+		// Bloquear el scroll en el body cuando el popup esté abierto
+		document.body.style.overflow = "hidden";  // Bloqueo del scroll
+
 		// Agrega el listener al documento cuando el componente está montado
 		document.addEventListener('mousedown', handleClickOutside);
-		// Limpia el listener cuando el componente se desmonta
+
+		// Limpia el listener y permite el scroll nuevamente cuando el popup se desmonta
 		return () => {
-		  document.removeEventListener('mousedown', handleClickOutside);
+			document.removeEventListener('mousedown', handleClickOutside);
+			document.body.style.overflow = "auto";  // Restaura el scroll
 		};
-	  });
+	}, []); // Solo se ejecuta cuando el componente se monta
+
 	const { img, title, currency, price, description, stock, tags, categoryName } = item;
+
 	const onClose = () => {
 		setPopUp(null);
 	};
 
 	return (
-		<div className="cardPopedUp" onClick={handleClickOutside} >
-			<div className="popupContainer" >
+		<div className="cardPopedUp" onClick={handleClickOutside}>
+			<div className="popupContainer">
+				{/* Botón de cierre */}
 				<div className="popupCard-close-button">
-					<span className="close" onClick={onClose}>&times;</span>
+					<button className="close" onClick={onClose}>&times;</button>
 				</div>
 				<img src={img} className="popupCard-img" alt="" />
 				<div className="popupCard-body">

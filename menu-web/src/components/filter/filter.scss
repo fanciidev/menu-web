@@ -1,10 +1,15 @@
 .filter{
-    margin: 15px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
 }
 
 button.active {
     transition: 0.05s;
     background-color: rgba(0, 171, 142, 0.2);
+    font-weight: bold;
 }
 
 .button {
